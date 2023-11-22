@@ -48,7 +48,7 @@ Below we've shown some examples of locations and their corresponding URLs:
         </tr>
         <tr>
             <td>content/sub/page.md</td>
-            <td><a href="%base_url%?docs/sub/page">?sub/page</a></td>
+            <td><a href="%base_url%?/sub/page">?sub/page</a></td>
         </tr>
     </tbody>
 </table>
@@ -360,7 +360,7 @@ e.g. `PicoFilePrefixes.php`) or directory (e.g. `PicoFilePrefixes`) to your
 because it makes updating both Pico and your plugins way easier. Anyway,
 depending on the plugin you want to install, you may have to go through some
 more steps (e.g. specifying config variables) to make the plugin work. Thus you
-should always check out the plugin's docs or `README.md` file to learn the
+should always check out the plugin's  or `README.md` file to learn the
 necessary steps.
 
 Plugins which were written to work with Pico 1.0 and later can be enabled and
