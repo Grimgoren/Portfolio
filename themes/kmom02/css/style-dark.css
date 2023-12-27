@@ -330,6 +330,7 @@ body {
 .logo img {
   padding: 1px;
   filter: hue-rotate(90deg);
+  filter: grayscale(80%);
 }
 
 .nav ul {
@@ -414,7 +415,7 @@ body {
 }
 
 body {
-  background-image: linear-gradient(to bottom right, #6dd47e 30%, #57c8a1 50%, #4ca8a3 70%);
+  background-image: linear-gradient(to bottom right, #296748 30%, #1f5b5e 50%, #1b4b4b 70%);
   background-attachment: fixed;
 }
 
