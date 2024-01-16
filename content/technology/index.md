@@ -4,9 +4,6 @@ Description: This is my technologies page.
 Template: technologies
 ---
 
-Technologies
-==========================
-
 <div class="box">
 <a href="%base_url%?technology/css">CSS</a>
 </div>

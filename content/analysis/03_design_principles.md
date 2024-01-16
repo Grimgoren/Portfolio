@@ -16,9 +16,10 @@ Jag använde inget specifickt verktyg utöver dbwebb informtionen under färg de
 
 Resultat
 -----------------------
-<img src="./../../../../../../dbwebb/design/me/portfolio/assets/img/wowhead.png" alt="Placeholder for Wowhead image" style="max-width: 300px; max-height: 300px;">
-<img src="./../../../../../../dbwebb/design/me/portfolio/assets/img/warcraftlogs.png" alt="Placeholder for Wowhead image" style="max-width: 300px; max-height: 300px;">
-<img src="./../../../../../../dbwebb/design/me/portfolio/assets/img/raiderio.png" alt="Placeholder for Wowhead image" style="max-width: 300px; max-height: 300px;">
+![Wowhead](%assets_url%/img/wowhead_small.jpg)
+![Warcraftlogs](%assets_url%/img/warcraftlogs_small.jpg)
+![Raiderio](%assets_url%/img/raiderio_small.jpg)
+
 
 Något gemensamt för alla tre sidorna är deras estetiska val av färg, eller snarare avsaknaden av färg i in bakgrund. De använder sig framförallt utav olika nyanser av svart och grått. Känslan som förmodligen vill förmedlas med detta är en mer analytisk och kanske informationsfokuserad design mer fokuserad på innehållet än själva intrycket av sidan för en utomstående eller ny användare. 
 En av sidorna (wowhead) använder något mer färg för att highlighta saker som de förmodligen vill rikta trafik mot medans de resterande avstår från denna taktik (i gämförelse).

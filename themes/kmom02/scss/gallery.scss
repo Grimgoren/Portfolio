@@ -1,0 +1,115 @@
+.gallerypage {
+    display: grid;
+    grid-gap: 1px;
+    max-width: 100vw;
+}
+
+@media screen and (max-width: 575px) {
+    .gallerypage {
+        grid-template-rows: repeat(3, auto);
+        grid-template-columns: 1fr; 
+    }
+
+    .item1,
+    .item2,
+    .item3 {
+        grid-area: auto;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .gallerypage {
+        grid-template-rows: repeat(2, auto);
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .gallerypage {
+        grid-template-rows: repeat(3, auto);
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.grid-item {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item1 {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.item2 {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.item3 {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.item4 {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.item5 {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.item6 {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.item7 {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.item8 {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.item9 {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+img:not([alt]) {
+    outline: 4px rgb(255, 0, 0) dashed !important;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

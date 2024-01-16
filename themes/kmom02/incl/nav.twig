@@ -1,10 +1,11 @@
 <div class="header" role="banner">
+  <div class="banner-container">
+    <img src="assets/img/banner.png" alt="banner">
+  </div>
     <div class="site-header">
         {% if pages["_meta"].meta.logo %}
         <div class="logo">
-            <a href="{{ base_url }}">
-                <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" />
-            </a>
+          <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" />
         </div>
         {% endif %}
         <div class="title" {{ pages["_meta"].meta.tagline ? ' class="tagline"' }}>
@@ -14,7 +15,7 @@
             </a>
         </div>
         <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false"
-            tabindex="1">
+            tabindex="">
             <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
             <span class="sr-only">Toggle Menu</span>
         </a>

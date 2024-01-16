@@ -3,11 +3,10 @@ Title: Home
 Description: This is our index page.
 ---
 
-Home page
-==========================
-
 <link href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" rel="stylesheet">
 <i class="fas fa-home"></i>
+Home page
+==========================
 
 <img src="assets/img/meADAM.jpeg" alt="Adam" style="max-width: 300px; max-height: 300px;">
 

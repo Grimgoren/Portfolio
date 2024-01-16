@@ -1,0 +1,52 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    {#<div class="main" role="main">#}
+        <h1>Gallery</h1>
+        <div class="gallerypage">
+            <div class="grid-item item1"><a href="{{ base_url }}/image/stock1_50.jpg" target="_blank"><picture>
+                  <source media="(min-width: 576px)" srcset="{{ base_url }}/image/stock1_50.jpg?w=100%">
+                  <img src="{{ base_url }}/image/stock1_20.jpg?w=50%" alt="Leaf Image" style="width: 100%;">
+                </picture></a></div>
+            <div class="grid-item item2"><a href="{{ base_url }}/image/stock2_50.jpg" target="_blank"><picture>
+                  <source media="(min-width: 576px)" srcset="{{ base_url }}/image/stock2_50.jpg?w=100%">
+                  <img src="{{ base_url }}/image/stock2_20.jpg?w=50%" alt="Leaf Image" style="width: 100%;">
+                </picture></a></div>
+            <div class="grid-item item3"><a href="{{ base_url }}/image/stock10_50.jpg" target="_blank"><picture>
+                  <source media="(min-width: 576px)" srcset="{{ base_url }}/image/stock10_50.jpg?w=100%">
+                  <img src="{{ base_url }}/image/stock10_20.jpg?w=50%" alt="Leaf Image" style="width: 100%;">
+                </picture></a></div>
+            <div class="grid-item item4"><a href="{{ base_url }}/image/stock4_50.jpg" target="_blank"><picture>
+                  <source media="(min-width: 576px)" srcset="{{ base_url }}/image/stock4_50.jpg?w=100%">
+                  <img src="{{ base_url }}/image/stock4_20.jpg?w=50%" alt="Leaf Image" style="width: 100%;">
+                </picture></a></div>
+            <div class="grid-item item5"><a href="{{ base_url }}/image/stock5_50.jpg" target="_blank"><picture>
+                  <source media="(min-width: 576px)" srcset="{{ base_url }}/image/stock5_50.jpg?w=100%">
+                  <img src="{{ base_url }}/image/stock5_20.jpg?w=50%" alt="Leaf Image" style="width: 100%;">
+                </picture></a></div>
+            <div class="grid-item item6"><a href="{{ base_url }}/image/stock6_50.jpg" target="_blank"><picture>
+                  <source media="(min-width: 576px)" srcset="{{ base_url }}/image/stock6_50.jpg?w=100%">
+                  <img src="{{ base_url }}/image/stock6_20.jpg?w=50%" alt="Leaf Image" style="width: 100%;">
+                </picture></a></div>
+            <div class="grid-item item7"><a href="{{ base_url }}/image/stock11_50.jpg" target="_blank"><picture>
+                  <source media="(min-width: 576px)" srcset="{{ base_url }}/image/stock11_50.jpg?w=100%">
+                  <img src="{{ base_url }}/image/stock11_20.jpg?w=50%" alt="Leaf Image" style="width: 100%;">
+                </picture></a></div>
+            <div class="grid-item item8"><a href="{{ base_url }}/image/stock8_50.jpg" target="_blank"><picture>
+                  <source media="(min-width: 576px)" srcset="{{ base_url }}/image/stock8_50.jpg?w=100%">
+                  <img src="{{ base_url }}/image/stock8_20.jpg?w=50%" alt="Leaf Image" style="width: 100%;">
+                </picture></a></div>
+            <div class="grid-item item9"><a href="{{ base_url }}/image/stock9_50.jpg" target="_blank"><picture>
+                  <source media="(min-width: 576px)" srcset="{{ base_url }}/image/stock9_50.jpg?w=100%">
+                  <img src="{{ base_url }}/image/stock9_20.jpg?w=50%" alt="Leaf Image" style="width: 100%;">
+                </picture></a></div>
+        </div>
+        <div class="embed-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/K0x_YjkgFjc?si=l4M8c-dsaH4rSr-s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+    {#</div>#}
+
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>
